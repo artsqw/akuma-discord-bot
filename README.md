@@ -5,6 +5,7 @@ My first job developing this kind of bot. In it I practiced working with cogs, d
 - Point system
 - Comment system
 - Blacklist system
+- Access rights system
   
 Written on [Disnake.py](https://github.com/DisnakeDev/disnake) library
 
