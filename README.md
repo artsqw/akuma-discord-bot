@@ -1,18 +1,26 @@
-# Akuma Discordbot
-### 😎 About project
-My first job developing this kind of bot. In it I practiced working with cogs, database and applying my knowledge of Python OOP. The bot contains:
-- Warning system
-- Point system
-- Comment system
-- Blacklist system
-- Access rights system
-  
-Written on [Disnake.py](https://github.com/DisnakeDev/disnake) library
+## Akuma DiscordBot
 
-### 👌Bot also has:
-- Pagination system. All lists (warnings, points) have pagination when overflowing
-- All data is stored in local databases built on aiosqlite (to avoid database lock errors)
-- In general, all bot functions are divided into separate files (cogs)
+This was my **first experience developing this type of bot**. During the process, I practiced working with **cogs**, **databases**, and applied my knowledge of **Python OOP**.
 
-> [!NOTE]
-> By the way, for reference, it was written in 2024. Now only English comments have been added
+### Features:
+
+- ⚠️ Warning system
+- ⭐ Point system
+- 💬 Comment system
+- 🚫 Blacklist system
+- 🔐 Access rights system
+
+The bot is built using the [**Disnake.py**](https://github.com/DisnakeDev/disnake) library.
+
+---
+
+### Additional Details:
+
+- 📄 **Pagination system** — all lists (warnings, points, etc.) have pagination when overflowing
+- 🗄️ **Local database** — all data is stored in local **aiosqlite** databases to avoid database lock errors
+- 🧩 **Modular design** — all bot functionalities are divided into separate files (**cogs**) for better organization and maintainability
+
+---
+
+> This project was originally developed in **2024**.  
+> Currently, all comments are written in English for better readability.
